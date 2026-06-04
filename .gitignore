@@ -1,0 +1,9 @@
+# Xcode
+**/.DS_Store
+**/xcuserdata/
+**/*.xcuserstate
+
+# Build outputs
+FamilyWealthApp/.DerivedData/
+DerivedData/
+build/

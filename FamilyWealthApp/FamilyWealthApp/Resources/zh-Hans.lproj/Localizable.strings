@@ -1,0 +1,188 @@
+"language.option.system" = "跟随系统";
+"language.option.zhHans" = "简体中文";
+"language.option.en" = "English";
+
+"settings.tags.category.title" = "资产类型标签";
+"settings.tags.platform.title" = "账号/平台标签";
+"settings.tags.category.empty" = "暂无资产类型标签。";
+"settings.tags.platform.empty" = "暂无账号/平台标签。";
+
+"assets.sort.valueDesc" = "金额 ↓";
+"assets.sort.valueAsc" = "金额 ↑";
+"assets.sort.updatedDesc" = "最近更新";
+"assets.sort.nameAsc" = "名称 A-Z";
+
+"common.all" = "全部";
+"common.unassigned" = "未分配";
+"common.member" = "成员";
+
+"asset.type.cash" = "现金";
+"asset.type.bankDeposit" = "银行存款";
+"asset.type.balance" = "余额";
+"asset.type.stock" = "股票";
+"asset.type.fund" = "基金";
+"asset.type.wealthManagement" = "理财";
+"asset.type.bond" = "债券";
+"asset.type.crypto" = "加密货币";
+"asset.type.realEstate" = "房产";
+"asset.type.insurance" = "保险";
+"asset.type.other" = "其他";
+
+"asset.valuation.standard" = "标准";
+"asset.valuation.custom" = "自定义";
+
+"stock.market.us" = "美股";
+"stock.market.hk" = "港股";
+"stock.market.global" = "全球";
+
+"dashboard.dimension.assetType" = "资产类型";
+"dashboard.dimension.accountPlatform" = "账号/平台";
+
+"assets.editor.tag.category.placeholder" = "例如：美股科技";
+"assets.editor.tag.platform.placeholder" = "例如：IBKR";
+
+"Asset" = "资产";
+"Name" = "名称";
+"Valuation" = "估值方式";
+"Type" = "类型";
+"Standard Asset" = "标准资产";
+"Custom Asset" = "自定义资产";
+"Search name or ticker (e.g. NVDA / NVIDIA / 0700)" = "按名称或代码搜索（例如：NVDA / NVIDIA / 0700）";
+"Search name or ticker (e.g. BTC / BTC-USD)" = "按名称或代码搜索（例如：BTC / BTC-USD）";
+"Market" = "市场";
+"Quantity" = "数量";
+"Price and total value are automatically calculated from ticker." = "价格和总额会根据代码自动计算。";
+"Searching..." = "搜索中...";
+"Suggestions" = "候选项";
+"Currency" = "币种";
+"Amount" = "金额";
+"Owner" = "归属";
+"Member" = "成员";
+"Unassigned" = "未分配";
+"Note" = "备注";
+"Optional" = "可选";
+"Add Asset" = "新增资产";
+"Edit Asset" = "编辑资产";
+"Cancel" = "取消";
+"Save" = "保存";
+"Saving..." = "保存中...";
+"Nearby Sync" = "Nearby Sync";
+"No connected nearby device." = "暂无已连接附近设备。";
+"Nearby sync uses peer-to-peer network only. No iCloud is required." = "Nearby 同步仅使用点对点网络，不依赖 iCloud。";
+"No connected devices." = "暂无已连接设备。";
+"Send" = "发送";
+"Send to All Connected" = "发送给所有已连接设备";
+"No nearby devices found yet." = "暂未发现附近设备。";
+"Connect" = "连接";
+"Done" = "完成";
+"Import" = "导入";
+"From %@, exported at %@." = "来自 %@，导出时间 %@。";
+
+"tab.dashboard" = "资产统计";
+"tab.assets" = "资产列表";
+"tab.me" = "我的";
+
+"common.save" = "保存";
+"common.cancel" = "取消";
+"common.add" = "添加";
+"common.manage" = "管理";
+"common.notSet" = "未设置";
+
+"settings.baseCurrency.section" = "主币种";
+"settings.baseCurrency.title" = "基准币种";
+"settings.baseCurrency.hint" = "首页和资产列表中的合计金额会按该币种换算显示。";
+"settings.language.section" = "语言";
+"settings.language.title" = "应用语言";
+"settings.language.hint" = "切换后立即生效。";
+"settings.tags.section" = "标签管理";
+"settings.members.section" = "成员管理";
+"settings.members.title" = "家庭成员";
+"settings.sync.section" = "数据同步";
+"settings.sync.hint" = "通过局域网点对点同步家庭资产数据，不依赖 iCloud。";
+"settings.snapshots.section" = "快照";
+"settings.snapshots.title" = "快照列表";
+"settings.snapshots.empty" = "暂无快照记录。";
+"settings.snapshots.household" = "家庭 ID: %@ · %@";
+"settings.count.items" = "%lld 个";
+"settings.count.people" = "%lld 人";
+"settings.count.records" = "%lld 条记录";
+
+"nearby.title" = "Nearby Sync";
+
+"tags.name" = "标签名称";
+"tags.add" = "新增标签";
+"tags.add.message" = "新增后可在新增资产页面直接选择。";
+"tags.rename.title" = "重命名标签";
+"tags.rename.action" = "重命名";
+"tags.rename.message" = "将 %@ 改为新的标签名。";
+"tags.clear.action" = "清空";
+
+"member.add" = "新增成员";
+"member.edit" = "编辑成员";
+"member.name" = "成员名称";
+"member.relation" = "关系";
+"member.primary" = "主成员";
+"member.defaultRelation" = "家庭成员";
+"members.empty" = "暂无家庭成员，请先添加。";
+
+"assets.list.section" = "资产列表";
+"assets.list.empty" = "没有符合筛选条件的资产。";
+"assets.search.prompt" = "搜索资产名、代码、标签、成员";
+"assets.member.summary" = "成员资产统计";
+"assets.member.empty" = "暂无成员，先新增一个成员。";
+"assets.member.assetCount" = "%lld 项资产";
+"assets.filter.type.allTypes" = "全部类型";
+"assets.filter.type.chip" = "类型: %@";
+"assets.filter.owner.chip" = "归属: %@";
+"assets.filter.sort.chip" = "排序: %@";
+"assets.filter.clear" = "清除筛选";
+"assets.quantity.value" = "数量 %@";
+"assets.share.unassigned" = "家庭占比 %@ · 成员占比 N/A";
+"assets.share.assigned" = "家庭占比 %@ · 成员占比 %@";
+
+"assets.detail.title" = "资产详情";
+"assets.detail.section.info" = "资产信息";
+"assets.detail.section.amounts" = "金额";
+"assets.detail.section.tags" = "标签";
+"assets.detail.section.note" = "备注";
+"assets.detail.name" = "名称";
+"assets.detail.type" = "类型";
+"assets.detail.valuation" = "估值方式";
+"assets.detail.owner" = "归属";
+"assets.detail.symbol" = "代码";
+"assets.detail.market" = "市场";
+"assets.detail.quantity" = "数量";
+"assets.detail.value" = "资产金额";
+"assets.detail.converted" = "折算 (%@)";
+"assets.detail.householdShare" = "家庭占比";
+"assets.detail.memberShare" = "成员占比";
+"assets.detail.tag.category" = "资产类型标签";
+"assets.detail.tag.platform" = "账号/平台标签";
+
+"assets.editor.tag.category" = "资产类型";
+"assets.editor.tag.platform" = "账号/平台";
+"assets.editor.tag.add.hint" = "新增后可直接在当前资产中选择。";
+"assets.editor.tag.clearSelection" = "清空当前选择";
+"assets.editor.error.standard" = "标准资产需要填写代码和数量。";
+"assets.editor.error.nameRequired" = "请填写资产名称。";
+"assets.editor.error.customAmount" = "自定义资产需要手动填写金额。";
+"assets.editor.error.save" = "保存失败：%@";
+
+"dashboard.empty.title" = "暂无家庭数据";
+"dashboard.empty.description" = "先添加成员或资产，首页会自动生成统计。";
+"dashboard.netWorth" = "净资产";
+"dashboard.assets" = "资产";
+"dashboard.liabilities" = "负债";
+"dashboard.baseCurrency" = "基准币种：%@";
+"dashboard.sync.waiting" = "等待刷新";
+"dashboard.sync.updated" = "更新于 %@";
+"dashboard.fx.fallback" = "汇率使用默认值或缓存：%@";
+"dashboard.allocation" = "资产分布";
+"dashboard.dimension" = "维度";
+"dashboard.allocation.empty" = "暂无资产分布数据";
+"dashboard.tag.none" = "无标签";
+"dashboard.bucket.others" = "其他";
+"dashboard.trend" = "资产变化";
+"dashboard.trend.empty" = "继续使用并刷新行情后，会自动生成趋势曲线。";
+"dashboard.axis.time" = "时间";
+"dashboard.axis.value" = "资产";

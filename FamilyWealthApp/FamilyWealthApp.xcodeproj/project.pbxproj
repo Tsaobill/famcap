@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0737E9F5019976CC14182A9E /* AssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1070E879303E1239C741480F /* AssetsView.swift */; };
+		0C8B2712D7EA132D7571F6EF /* Household.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CFC594254655432460E449 /* Household.swift */; };
+		0D31826C56767626A98A5A06 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC2EB9297662890E625967 /* CurrencyFormatter.swift */; };
+		17A1A97A828B9814728EB692 /* TagCatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD631E56B6CA2E6C2B1872 /* TagCatalogStore.swift */; };
+		1F32AD8FE93B9E6A4C7DFE1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C0A55E76264971050CA56F6 /* Localizable.strings */; };
+		26F9E9CD191A9923FBBBA1F5 /* MarketDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC3E63E3887CF38EF95462D /* MarketDataCoordinator.swift */; };
+		3B475A5494524E4AF0DD8B47 /* AssetValuationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEED4ACDB0A67A85FC946E /* AssetValuationMode.swift */; };
+		4B65803E381E6F7D2E0BEFB3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6229FFD0FE7E5BDD21741D /* SettingsView.swift */; };
+		5ADF3CFF492F5E89C026678B /* NetWorthSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644BEFF722B647EF4B2C663E /* NetWorthSnapshot.swift */; };
+		680F06C56584B7DA6692A9C0 /* HouseholdSyncPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF65C2821DDC309F52DBF01 /* HouseholdSyncPayload.swift */; };
+		6CFB5E1E819A018B32F8964E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374A89024A28895A55C3664C /* ContentView.swift */; };
+		8450E42439B7DFF02F7A0987 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D317092F06072A2E04C5CB1 /* AppLanguage.swift */; };
+		9807E18F5F0C779C2D82C6E9 /* StockMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125509F3919237EC54E85CFD /* StockMarket.swift */; };
+		A28C5016860C71F77A0B7206 /* MarketDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46A8840529817D7DA4A5B27 /* MarketDataProvider.swift */; };
+		B262541E28E2737845E77864 /* NearbySyncSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961A5C36D4191EC6ECBED0AB /* NearbySyncSheetView.swift */; };
+		B45F2787A27AAB53F2E968DB /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A76FAA9F1ED582F41AFAD4 /* Member.swift */; };
+		B84E67DD341607393C4C95DA /* NetWorthSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A14AA082EBDC7937A6583D /* NetWorthSnapshotService.swift */; };
+		BA71AF11CF8E9465BB586095 /* AppSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB6711EC1E10E463E370B6 /* AppSeeder.swift */; };
+		BF8533764530DD0A96E409CF /* FamilyWealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC7ED241FA92012F5DC034 /* FamilyWealthAppApp.swift */; };
+		BFA686D2005BFB88358DCC0E /* AppLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC50AFA2829365D5E439A /* AppLocalizer.swift */; };
+		CB810DE9145C9AB62FDBECFD /* MembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE195E106B6C0C3B91BD25 /* MembersView.swift */; };
+		DA829D0187B5D62276F747E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B95EAD4FF717D822B6D23 /* Assets.xcassets */; };
+		DDF774B1CF4E7298CA03A5D1 /* YahooFinanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2319C64C78D1ECD7E0CABACF /* YahooFinanceProvider.swift */; };
+		E307698AF0FE757A36615A0F /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42878318A156559F3281CAB1 /* Asset.swift */; };
+		ECD2DB53A27FB2DBBF3C1E7A /* AssetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C373D519AE2CE766456BC91 /* AssetType.swift */; };
+		FDD8012257C0E898BCB4AE7A /* NearbySyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF6548DFF49737E941B0E3F /* NearbySyncService.swift */; };
+		FFCC1F60D15FA82F09941A67 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5702E7ED9772E218F1809 /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1070E879303E1239C741480F /* AssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsView.swift; sourceTree = "<group>"; };
+		125509F3919237EC54E85CFD /* StockMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarket.swift; sourceTree = "<group>"; };
+		19D5702E7ED9772E218F1809 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1CF65C2821DDC309F52DBF01 /* HouseholdSyncPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseholdSyncPayload.swift; sourceTree = "<group>"; };
+		2319C64C78D1ECD7E0CABACF /* YahooFinanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooFinanceProvider.swift; sourceTree = "<group>"; };
+		25995A9DE4E14F196E93430A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		27CE195E106B6C0C3B91BD25 /* MembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersView.swift; sourceTree = "<group>"; };
+		29EEED4ACDB0A67A85FC946E /* AssetValuationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetValuationMode.swift; sourceTree = "<group>"; };
+		35A14AA082EBDC7937A6583D /* NetWorthSnapshotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthSnapshotService.swift; sourceTree = "<group>"; };
+		374A89024A28895A55C3664C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39CFC594254655432460E449 /* Household.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Household.swift; sourceTree = "<group>"; };
+		3D317092F06072A2E04C5CB1 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		42878318A156559F3281CAB1 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		4B6229FFD0FE7E5BDD21741D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		644BEFF722B647EF4B2C663E /* NetWorthSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthSnapshot.swift; sourceTree = "<group>"; };
+		65A76FAA9F1ED582F41AFAD4 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		66CEC50AFA2829365D5E439A /* AppLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalizer.swift; sourceTree = "<group>"; };
+		78AD631E56B6CA2E6C2B1872 /* TagCatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCatalogStore.swift; sourceTree = "<group>"; };
+		7AEC7ED241FA92012F5DC034 /* FamilyWealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyWealthAppApp.swift; sourceTree = "<group>"; };
+		8C373D519AE2CE766456BC91 /* AssetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetType.swift; sourceTree = "<group>"; };
+		8CA43D4098656CCCCF09484F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EC09670F890745BA9FC6D92 /* FamilyCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961A5C36D4191EC6ECBED0AB /* NearbySyncSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbySyncSheetView.swift; sourceTree = "<group>"; };
+		C46A8840529817D7DA4A5B27 /* MarketDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataProvider.swift; sourceTree = "<group>"; };
+		CD7B95EAD4FF717D822B6D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF6548DFF49737E941B0E3F /* NearbySyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbySyncService.swift; sourceTree = "<group>"; };
+		DBC3E63E3887CF38EF95462D /* MarketDataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataCoordinator.swift; sourceTree = "<group>"; };
+		E4BC2EB9297662890E625967 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		F7BB6711EC1E10E463E370B6 /* AppSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSeeder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		108189E5A594C81D453829AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC09670F890745BA9FC6D92 /* FamilyCap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240EA4E2E1543150FD56E4E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A55E76264971050CA56F6 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D0EA3A3309091EA46C6E122 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D317092F06072A2E04C5CB1 /* AppLanguage.swift */,
+				66CEC50AFA2829365D5E439A /* AppLocalizer.swift */,
+				F7BB6711EC1E10E463E370B6 /* AppSeeder.swift */,
+				E4BC2EB9297662890E625967 /* CurrencyFormatter.swift */,
+				1CF65C2821DDC309F52DBF01 /* HouseholdSyncPayload.swift */,
+				DBC3E63E3887CF38EF95462D /* MarketDataCoordinator.swift */,
+				C46A8840529817D7DA4A5B27 /* MarketDataProvider.swift */,
+				DAF6548DFF49737E941B0E3F /* NearbySyncService.swift */,
+				35A14AA082EBDC7937A6583D /* NetWorthSnapshotService.swift */,
+				78AD631E56B6CA2E6C2B1872 /* TagCatalogStore.swift */,
+				2319C64C78D1ECD7E0CABACF /* YahooFinanceProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E0E51A2E92D13C563B1ECFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42878318A156559F3281CAB1 /* Asset.swift */,
+				8C373D519AE2CE766456BC91 /* AssetType.swift */,
+				29EEED4ACDB0A67A85FC946E /* AssetValuationMode.swift */,
+				39CFC594254655432460E449 /* Household.swift */,
+				65A76FAA9F1ED582F41AFAD4 /* Member.swift */,
+				644BEFF722B647EF4B2C663E /* NetWorthSnapshot.swift */,
+				125509F3919237EC54E85CFD /* StockMarket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61269FFA46B1E154D1AFF468 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1070E879303E1239C741480F /* AssetsView.swift */,
+				374A89024A28895A55C3664C /* ContentView.swift */,
+				19D5702E7ED9772E218F1809 /* DashboardView.swift */,
+				27CE195E106B6C0C3B91BD25 /* MembersView.swift */,
+				4B6229FFD0FE7E5BDD21741D /* SettingsView.swift */,
+				8F1EF0B9CACAA8441E3748D2 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F1EF0B9CACAA8441E3748D2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				961A5C36D4191EC6ECBED0AB /* NearbySyncSheetView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93BDAE26BDA38F5A576A0643 /* FamilyWealthApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B95EAD4FF717D822B6D23 /* Assets.xcassets */,
+				7AEC7ED241FA92012F5DC034 /* FamilyWealthAppApp.swift */,
+				3E0E51A2E92D13C563B1ECFF /* Models */,
+				240EA4E2E1543150FD56E4E3 /* Resources */,
+				2D0EA3A3309091EA46C6E122 /* Services */,
+				61269FFA46B1E154D1AFF468 /* Views */,
+			);
+			path = FamilyWealthApp;
+			sourceTree = "<group>";
+		};
+		FD94B3DBB0291AE2DC61129D = {
+			isa = PBXGroup;
+			children = (
+				93BDAE26BDA38F5A576A0643 /* FamilyWealthApp */,
+				108189E5A594C81D453829AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22515BCF537BA0F20AF182A8 /* FamilyWealthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77FD1AE4A0D6B4B621745F3 /* Build configuration list for PBXNativeTarget "FamilyWealthApp" */;
+			buildPhases = (
+				8746EB7A2BDDD5F743F470A8 /* Sources */,
+				F6E00741FEB31AECC7F34756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FamilyWealthApp;
+			packageProductDependencies = (
+			);
+			productName = FamilyCap;
+			productReference = 8EC09670F890745BA9FC6D92 /* FamilyCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427C0FC5051FAB5176BA58E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22515BCF537BA0F20AF182A8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CF1E7810791247F3C2F79E8 /* Build configuration list for PBXProject "FamilyWealthApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = FD94B3DBB0291AE2DC61129D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 108189E5A594C81D453829AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22515BCF537BA0F20AF182A8 /* FamilyWealthApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E00741FEB31AECC7F34756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA829D0187B5D62276F747E2 /* Assets.xcassets in Resources */,
+				1F32AD8FE93B9E6A4C7DFE1F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8746EB7A2BDDD5F743F470A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450E42439B7DFF02F7A0987 /* AppLanguage.swift in Sources */,
+				BFA686D2005BFB88358DCC0E /* AppLocalizer.swift in Sources */,
+				BA71AF11CF8E9465BB586095 /* AppSeeder.swift in Sources */,
+				E307698AF0FE757A36615A0F /* Asset.swift in Sources */,
+				ECD2DB53A27FB2DBBF3C1E7A /* AssetType.swift in Sources */,
+				3B475A5494524E4AF0DD8B47 /* AssetValuationMode.swift in Sources */,
+				0737E9F5019976CC14182A9E /* AssetsView.swift in Sources */,
+				6CFB5E1E819A018B32F8964E /* ContentView.swift in Sources */,
+				0D31826C56767626A98A5A06 /* CurrencyFormatter.swift in Sources */,
+				FFCC1F60D15FA82F09941A67 /* DashboardView.swift in Sources */,
+				BF8533764530DD0A96E409CF /* FamilyWealthAppApp.swift in Sources */,
+				0C8B2712D7EA132D7571F6EF /* Household.swift in Sources */,
+				680F06C56584B7DA6692A9C0 /* HouseholdSyncPayload.swift in Sources */,
+				26F9E9CD191A9923FBBBA1F5 /* MarketDataCoordinator.swift in Sources */,
+				A28C5016860C71F77A0B7206 /* MarketDataProvider.swift in Sources */,
+				B45F2787A27AAB53F2E968DB /* Member.swift in Sources */,
+				CB810DE9145C9AB62FDBECFD /* MembersView.swift in Sources */,
+				FDD8012257C0E898BCB4AE7A /* NearbySyncService.swift in Sources */,
+				B262541E28E2737845E77864 /* NearbySyncSheetView.swift in Sources */,
+				5ADF3CFF492F5E89C026678B /* NetWorthSnapshot.swift in Sources */,
+				B84E67DD341607393C4C95DA /* NetWorthSnapshotService.swift in Sources */,
+				4B65803E381E6F7D2E0BEFB3 /* SettingsView.swift in Sources */,
+				9807E18F5F0C779C2D82C6E9 /* StockMarket.swift in Sources */,
+				17A1A97A828B9814728EB692 /* TagCatalogStore.swift in Sources */,
+				DDF774B1CF4E7298CA03A5D1 /* YahooFinanceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C0A55E76264971050CA56F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA43D4098656CCCCF09484F /* en */,
+				25995A9DE4E14F196E93430A /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A5690A52D76B757C5894B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GZW8DVA3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FamilyCap;
+				INFOPLIST_KEY_NSBonjourServices = _fwsyncshare._tcp;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover nearby family devices to share household data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.familycap;
+				PRODUCT_NAME = FamilyCap;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7EE0B63176912EF8C08BAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GZW8DVA3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FamilyCap;
+				INFOPLIST_KEY_NSBonjourServices = _fwsyncshare._tcp;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover nearby family devices to share household data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.familycap;
+				PRODUCT_NAME = FamilyCap;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D506D2B18CFE8844AEC7D4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E6EE5DA694992036E35EC73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF1E7810791247F3C2F79E8 /* Build configuration list for PBXProject "FamilyWealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EE5DA694992036E35EC73D /* Debug */,
+				D506D2B18CFE8844AEC7D4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D77FD1AE4A0D6B4B621745F3 /* Build configuration list for PBXNativeTarget "FamilyWealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EE0B63176912EF8C08BAD5 /* Debug */,
+				3A5690A52D76B757C5894B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427C0FC5051FAB5176BA58E6 /* Project object */;
+}
